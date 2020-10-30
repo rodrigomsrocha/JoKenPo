@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JoKenPo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Pedra Papel Tesoura</h1>
+    </header>
+
+    <div class="score-board">
+      <div id="user-label" class="badge">user</div>
+      <div id="comp-label" class="badge">comp</div>
+      <span id="user-score">0</span>:<span id="comp-score">0</span>
+    </div>
+
+    <div class="result">
+      <p>Faça sua escolha</p>
+    </div>
+
+    <div class="choices">
+      <div id="r" class="choice">
+        <img src="images/icons8-hand-rock-50.png" alt="Pedra" />
+      </div>
+      <div id="p" class="choice">
+        <img src="images/icons8-hand-50.png" alt="Papel" />
+      </div>
+      <div id="s" class="choice">
+        <img src="images/icons8-hand-scissors-50.png" alt="Tesoura" />
+      </div>
+    </div>
+
+    <p id="action-message">Faça seu movimento</p>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
